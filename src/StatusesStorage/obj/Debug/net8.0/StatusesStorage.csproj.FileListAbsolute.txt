@@ -1,0 +1,15 @@
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\bin\Debug\net8.0\StatusesStorage.deps.json
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\bin\Debug\net8.0\StatusesStorage.runtimeconfig.json
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\bin\Debug\net8.0\StatusesStorage.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\bin\Debug\net8.0\StatusesStorage.pdb
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\StatusesStorage.csproj.AssemblyReference.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\StatusesStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\StatusesStorage.AssemblyInfoInputs.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\StatusesStorage.AssemblyInfo.cs
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\StatusesStorage.csproj.CoreCompileInputs.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\StatusesStorage.sourcelink.json
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\StatusesStorage.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\refint\StatusesStorage.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\StatusesStorage.pdb
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\StatusesStorage.genruntimeconfig.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesStorage\obj\Debug\net8.0\ref\StatusesStorage.dll

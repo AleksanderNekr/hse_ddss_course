@@ -1,0 +1,154 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesManagement\\StatusesManagement.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesManagement\\StatusesManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesManagement\\StatusesManagement.csproj",
+        "projectName": "StatusesManagement",
+        "projectPath": "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesManagement\\StatusesManagement.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesStorage\\StatusesStorage.csproj": {
+                "projectPath": "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesStorage\\StatusesStorage.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.556, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesStorage\\StatusesStorage.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesStorage\\StatusesStorage.csproj",
+        "projectName": "StatusesStorage",
+        "projectPath": "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesStorage\\StatusesStorage.csproj",
+        "packagesPath": "C:\\Users\\aleks\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleks\\RiderProjects\\ssad-labs\\Lab Work 3\\src\\StatusesStorage\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\aleks\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.2.0-beta.556, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

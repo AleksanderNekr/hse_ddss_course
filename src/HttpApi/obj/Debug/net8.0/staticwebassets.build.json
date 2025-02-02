@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LurkuxOhsEb8BsXRUVR2vY79NoUVfI6uwK6PTQOz9tk=",
+  "Source": "HttpApi",
+  "BasePath": "_content/HttpApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

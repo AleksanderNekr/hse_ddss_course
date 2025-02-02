@@ -1,0 +1,30 @@
+services:
+  calendars:
+    container_name: calendars_api
+    build:
+      dockerfile: ./CalendarsApi/Dockerfile
+      context: .
+    ports:
+      - "5000:5000"
+    environment:
+      LISTEN_PORT: 5000
+  server:
+    container_name: back
+    build:
+      dockerfile: ./HttpApi/Dockerfile
+      context: .
+      target: final
+    ports:
+      - "8080:8080"
+    environment:
+      - Grpc__CalendarsApiUrl=http://calendars_api:5000
+      - ConnectionStrings__DefaultConnection=Data Source=./app.db
+      - Jwt__Issuer=http://localhost:8080
+      - Jwt__Audience=http://localhost:8080
+      - Jwt__Key=supersecret
+    volumes:
+      - ./HttpApi/app.db:/app/app.db
+      - ./HttpApi/app.db-shm:/app/app.db-shm
+    depends_on:
+      calendars:
+        condition: service_started

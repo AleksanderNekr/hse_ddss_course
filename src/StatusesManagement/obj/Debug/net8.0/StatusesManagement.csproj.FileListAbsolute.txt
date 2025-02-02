@@ -1,0 +1,16 @@
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\bin\Debug\net8.0\StatusesManagement.deps.json
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\bin\Debug\net8.0\StatusesManagement.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\bin\Debug\net8.0\StatusesManagement.pdb
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\StatusesManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\StatusesManagement.AssemblyInfoInputs.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\StatusesManagement.AssemblyInfo.cs
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\StatusesManagement.csproj.CoreCompileInputs.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\StatusesManagement.sourcelink.json
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\StatusesManagement.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\refint\StatusesManagement.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\StatusesManagement.pdb
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\ref\StatusesManagement.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\bin\Debug\net8.0\StatusesStorage.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\bin\Debug\net8.0\StatusesStorage.pdb
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\StatusesManagement.csproj.AssemblyReference.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\StatusesManagement\obj\Debug\net8.0\Statuses.1D9D571C.Up2Date

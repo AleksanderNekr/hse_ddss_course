@@ -1,0 +1,6 @@
+protobuf~=5.29.2
+grpcio~=1.70.0
+grpcio-tools~=1.70.0
+requests~=2.32.3
+beautifulsoup4~=4.12.3
+selenium~=4.28.1

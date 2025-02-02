@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpApi", "HttpApi\HttpApi.csproj", "{C134DB1F-15CF-4424-B17E-191E72B20A2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusesManagement", "StatusesManagement\StatusesManagement.csproj", "{4FD323BB-8D07-4D24-82F6-5C5AEA77A989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusesStorage", "StatusesStorage\StatusesStorage.csproj", "{9257E78F-3B7C-4D41-948A-949EF58C0280}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CalendarsApi", "CalendarsApi", "{D6953DAC-61FC-44B0-A350-09E38C55BDEA}"
+	ProjectSection(SolutionItems) = preProject
+		CalendarsApi\README.md = CalendarsApi\README.md
+		CalendarsApi\REQUIREMENTS.txt = CalendarsApi\REQUIREMENTS.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Protos", "Protos", "{290666F7-E308-4B1A-A9EE-AF33B7D90E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalendarsClient", "CalendarsClient\CalendarsClient.csproj", "{270EFD87-4FAE-4CAF-BA03-6314A53C23F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4584492D-F497-40B7-B2F3-D8B2F15EA1DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusesStorage.UnitTests", "StatusesStorage.UnitTests\StatusesStorage.UnitTests.csproj", "{78C0DEC5-6C8C-4A1E-85D1-927099CB55B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatusesStorage.IntegrationTests", "StatusesStorage.IntegrationTests\StatusesStorage.IntegrationTests.csproj", "{44F41ABC-A4BC-4935-AB60-5F12909EFD72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C134DB1F-15CF-4424-B17E-191E72B20A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C134DB1F-15CF-4424-B17E-191E72B20A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C134DB1F-15CF-4424-B17E-191E72B20A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C134DB1F-15CF-4424-B17E-191E72B20A2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD323BB-8D07-4D24-82F6-5C5AEA77A989}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD323BB-8D07-4D24-82F6-5C5AEA77A989}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD323BB-8D07-4D24-82F6-5C5AEA77A989}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD323BB-8D07-4D24-82F6-5C5AEA77A989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9257E78F-3B7C-4D41-948A-949EF58C0280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9257E78F-3B7C-4D41-948A-949EF58C0280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9257E78F-3B7C-4D41-948A-949EF58C0280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9257E78F-3B7C-4D41-948A-949EF58C0280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{270EFD87-4FAE-4CAF-BA03-6314A53C23F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{270EFD87-4FAE-4CAF-BA03-6314A53C23F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{270EFD87-4FAE-4CAF-BA03-6314A53C23F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{270EFD87-4FAE-4CAF-BA03-6314A53C23F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C0DEC5-6C8C-4A1E-85D1-927099CB55B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C0DEC5-6C8C-4A1E-85D1-927099CB55B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C0DEC5-6C8C-4A1E-85D1-927099CB55B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C0DEC5-6C8C-4A1E-85D1-927099CB55B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F41ABC-A4BC-4935-AB60-5F12909EFD72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F41ABC-A4BC-4935-AB60-5F12909EFD72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F41ABC-A4BC-4935-AB60-5F12909EFD72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F41ABC-A4BC-4935-AB60-5F12909EFD72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{78C0DEC5-6C8C-4A1E-85D1-927099CB55B7} = {4584492D-F497-40B7-B2F3-D8B2F15EA1DF}
+		{44F41ABC-A4BC-4935-AB60-5F12909EFD72} = {4584492D-F497-40B7-B2F3-D8B2F15EA1DF}
+	EndGlobalSection
+EndGlobal

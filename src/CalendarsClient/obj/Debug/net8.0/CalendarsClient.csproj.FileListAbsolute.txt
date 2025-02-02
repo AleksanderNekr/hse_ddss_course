@@ -1,0 +1,13 @@
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\bin\Debug\net8.0\CalendarsClient.deps.json
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\bin\Debug\net8.0\CalendarsClient.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\bin\Debug\net8.0\CalendarsClient.pdb
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\CalendarsClient.csproj.AssemblyReference.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\CalendarsClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\CalendarsClient.AssemblyInfoInputs.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\CalendarsClient.AssemblyInfo.cs
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\CalendarsClient.csproj.CoreCompileInputs.cache
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\CalendarsClient.sourcelink.json
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\CalendarsClient.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\refint\CalendarsClient.dll
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\CalendarsClient.pdb
+C:\Users\aleks\RiderProjects\ssad-labs\Lab Work 3\src\CalendarsClient\obj\Debug\net8.0\ref\CalendarsClient.dll

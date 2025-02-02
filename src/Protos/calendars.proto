@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package WorkCalendars;
+
+service HolidaysProvider {
+  rpc GetHolidays (GetHolidaysRequest) returns (HolidaysResponse);
+}
+
+message GetHolidaysRequest {
+  int32 year = 1;
+  Country country = 2;
+}
+
+message HolidaysResponse {
+  repeated string holidays = 1;
+  repeated string pre_holidays = 2;
+}
+
+enum Country {
+  RU = 0; // Russia
+  ME = 1; // Montenegro
+}
