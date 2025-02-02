@@ -1,0 +1,65 @@
+@startuml
+left to right direction
+
+actor "Сотрудник" as employee
+actor "Руководитель" as lead
+actor "Офис-менеджер" as office_manager
+actor "Заказчик" as client
+
+rectangle "Приложение для планирования и согласования отпусков" {
+    ' Сотрудник
+    usecase (Планирование дат отпуска) as plan_days_off
+    usecase (Просмотр календаря отпусков) as view_days_off
+    usecase (Отправка на согласование) as send_for_approval
+    usecase (Редактирование дат отпуска) as edit_days_off
+    usecase (Создание заявки\nна перенос дней) as create_transfer_request
+    employee -- view_days_off
+    employee -r- plan_days_off
+    plan_days_off <. send_for_approval : <<extend>>
+    view_days_off <. edit_days_off : <<extend>>
+    edit_days_off ..> send_for_approval : <<include>>
+    employee -- create_transfer_request
+    create_transfer_request <.. send_for_approval : <<extend>>
+    
+    ' Руководитель
+    usecase (Просмотр заявок\nна отпуск) as view_requests
+    usecase (Согласование заявок) as approve_requests
+    usecase (Отклонение заявок) as decline_requests
+    usecase (Просмотр календаря\nотпусков сотрудников) as view_calendars
+    usecase (Установка временного\nстатуса согласования) as mark_approving_status
+    usecase (Отправка запроса\nна согласование\nменеджеру проекта) as send_approving_request_to_pm
+    usecase (Экспорт календаря\nотпусков) as export_calendar
+    usecase (Редактирование дат\nотпуска работника) as edit_emp_days_off
+    
+    lead - view_requests
+    view_requests <.. mark_approving_status : <<extend>>
+    mark_approving_status <.. approve_requests : <<extend>>
+    mark_approving_status <.. decline_requests : <<extend>>
+    lead -- view_calendars
+    view_calendars <.. export_calendar : <<extend>>
+    view_calendars <.. edit_emp_days_off : <<extend>>
+    approve_requests ..> send_approving_request_to_pm : <<include>>
+    
+    ' Офис-менеджер
+    usecase (Просмотр заявок\nна отпуск) as view_requests_office_manager
+    usecase (Отправка напоминания\nсотруднику о подтверждении) as send_reminder
+    
+    office_manager -- view_calendars
+    office_manager - view_requests_office_manager
+    office_manager - send_reminder
+    
+    ' Заказчик
+    usecase (Просмотр календаря\nотпусков команды) as view_team_calendars
+    usecase (Экспорт календаря\nотпусков команды) as export_team_calendar
+    usecase (Просмотр заявок\nна отпуск команды) as view_team_requests
+    usecase (Согласование заявок\nкоманды) as approve_team_requests
+    usecase (Отклонение заявок\nкоманды) as decline_team_requests
+    
+    client -- view_team_calendars
+    view_team_calendars <.. export_team_calendar : <<extend>>
+    client -- view_team_requests
+    view_team_requests <.. approve_team_requests : <<extend>>
+    view_team_requests <.. decline_team_requests : <<extend>>
+}
+
+@enduml
